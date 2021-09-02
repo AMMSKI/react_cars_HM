@@ -23,7 +23,7 @@ const CarsForm = (props) => {
 
   return (
     <div>
-      <h1>{props.car ? 'Edit Car' : 'Add New Car'}</h1>
+      <h3>{props.car ? 'Edit Car' : 'Add New Car'}</h3>
       <form onSubmit={handleSubmit}>
         <p>Make</p>
         <input value={make} onChange={(e) => {setMake(e.target.value)}}/>

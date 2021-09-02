@@ -13,3 +13,70 @@
  *= require_tree .
  *= require_self
  */
+
+ .main-container {
+  border-radius: 5px;
+  margin: 10px;
+  box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+  background: rgb(2,0,36);
+  background: linear-gradient(45deg, rgba(2,0,36,1) 0%, rgba(135,221,223,0.7847514005602241) 52%, rgba(0,212,255,1) 100%);
+  text-align: center;
+ }
+
+.header {
+  text-align: center;
+  padding: 10px;
+  position: sticky;
+  box-shadow: 0px 10px 15px 6px #000000;
+  top: 0;
+  background: rgb(2,0,36);
+  background: linear-gradient(45deg, rgba(2,0,36,1) 0%, rgba(106,214,217,0) 0%, rgba(0,212,255,0.6601015406162465) 0%);
+}
+h1 {
+  color: #e0dfdc;
+  text-shadow: 0 -1px 0 #fff, 0 1px 0 #2e2e2e, 0 2px 0 #2c2c2c, 0 3px 0 #2a2a2a, 0 4px 0 #282828, 0 5px 0 #262626, 0 6px 0 #242424, 0 7px 0 #222, 0 8px 0 #202020, 0 9px 0 #1e1e1e, 0 10px 0 #1c1c1c, 0 11px 0 #1a1a1a, 0 12px 0 #181818, 0 13px 0 #161616, 0 14px 0 #141414, 0 15px 0 #121212, 0 22px 30px rgba(0,0,0,0.9);
+}
+
+.get-cars-button{
+  margin-top: 30px;
+  border: none;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  box-shadow: 0px 10px 15px 6px #000000;
+}
+
+ .container {
+  display: flex;
+  flex-direction: wrap;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin: 10px;
+  padding: 10px;
+  }
+
+ .car-container {
+   margin: 10px;
+   padding: 10px;
+   background: rgb(2,0,36);
+   background: linear-gradient(45deg, rgba(2,0,36,1) 0%, rgba(135,221,223,0.7847514005602241) 52%, rgba(0,212,255,1) 100%);
+   height: 500px;
+   width: 300px;
+   box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+   border-radius: 5px;
+  }
+
+ button {
+  background: rgb(2,0,36);
+  background: linear-gradient(45deg, rgba(2,0,36,1) 0%, rgba(106,214,217,0) 0%, rgba(0,212,255,0.6601015406162465) 0%);
+  border-radius: 5px;
+  margin: 10px;
+  box-shadow: 0px 10px 15px 6px #000000;
+ }
+
+ input{
+   background-color: #a4ebed;
+   border-radius: 5px;
+ }
