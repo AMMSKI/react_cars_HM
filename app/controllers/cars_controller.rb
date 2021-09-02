@@ -1,6 +1,5 @@
 class CarsController < ApplicationController
   
-
   def app 
     render component: 'App'
   end
